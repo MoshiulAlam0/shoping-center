@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background-color: rgba(106, 108, 133, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* main container start ------- */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: rgb(151, 155, 192);
+    width: 50%;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px -2px;
+
+}
+/* header section start ------  */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(91, 169, 241); */
+    margin-top: 10px;
+
+}
+.header-text{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.header-shop-text{
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+/* main-shoping-container section start -------- */
+.main-shoping-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(221, 219, 219); */
+    width: 100%;
+    gap: 12px;
+}
+.shoping-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 28px 0;
+    border-radius: 6px;
+    box-shadow: 0 0 12px -4px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.price-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+.product-img{
+    width: 110px;
+}
+.product-text{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(64, 68, 71);
+}
+.price-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.icon{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+}
+.icon:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+.price-input{
+    width: 35px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+}
+.price{
+    color: rgb(64, 68, 71);
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+}
+.amount{
+    color: red;
+    font-size: 22px;
+}
+.icon-xmark{
+    font-size: 30px;
+    color: red;
+    margin-left: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon-xmark:hover{
+    transform: scale(1.2);
+}
+/* shoping-container-total------ */
+.shoping-container-total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 28px 0;
+    border-radius: 6px;
+    box-shadow: 0 0 12px -4px;
+}
+.price-total{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    color: rgb(64, 68, 71);
+}
+#total-price {
+    color: red;
+}
+.check-btn{
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(14, 65, 220);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .3s;
+}
+.check-btn:hover{
+    background-color: rgb(15, 38, 167);
+}
+/* footer------------------- */
+.footer-p{
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: rgb(64, 68, 71);
+}

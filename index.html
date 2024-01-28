@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My mobail Center</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="header-text">Mobail $<span class="header-shop-text">hop</span></h2>
+    </header>
+    <main class="main-container">
+        <section class="main-shoping-container">
+            <div id="iphone-item" class="shoping-container">
+                <div class="product">
+                    <img src="img/iphone-12-pro-blue-hero.jpg" alt="" class="product-img">
+                    <p class="product-text">Iphone 12 128GB Black</p>
+                </div>
+                <div class="price-div">
+                    <div class="price-item">
+                        <button class="icon" id="iphone-minus"><i class="fa-solid fa-minus "></i></button>
+                        <input class="price-input" id="iphone-field" type="number" value="1">
+                        <button class="icon" id="iphone-plus"><i class="fa-solid fa-plus "></i></button>
+                    </div>
+                   <div class="price-item">
+                    <p class="price amount">$<span id="iphone-amount">2000</span></p>
+                    <p><i id="iphone-x-button" class="fa-solid fa-xmark icon-xmark"></i></i></p>
+                   </div>
+                </div>
+            </div>
+            <div id="cover-item" class="shoping-container">
+                <div class="product">
+                    <img src="img/iphone 12 bank cover full .jpg " alt="" class="product-img">
+                    <p class="product-text">Iphone 12 Back cover Black</p>
+                </div>
+                <div class="price-div">
+                    <div class="price-item">
+                        <button class="icon" id="cover-minus"><i class="fa-solid fa-minus "></i></button>
+                        <input id="cover-field" class="price-input" type="number" value="1">
+                        <button class="icon" id="cover-plus"><i class="fa-solid fa-plus "></i></button>
+                    </div>
+                   <div class="price-item">
+                    <p class="price amount">$<span id="cover-amount">45</span></p>
+                    <p><i id="cover-x-button" class="fa-solid fa-xmark icon-xmark"></i></p>
+                   </div>
+                </div>
+            </div>
+            <div class="shoping-container-total">
+                <div class="">
+                    <p class="price-total">Subtotal:</p>
+                    <p class="price-total">Tax(<span id="tax-amount">5</span>%):</p>
+                    <p class="price-total">Total Price:</p>
+                </div>
+                <div>
+                    <P class="price-total">$ <span id="subTotal-pirce">00</span></P>
+                    <P class="price-total">$ <span id="tax-pirce">00</span></P>
+                    <P class="price-total">$ <span id="total-price">00</span></P>
+                </div>
+            </div>
+            <button class="check-btn">Check Out</button>
+        </main>
+    </section>
+    <footer class="footer">
+        <p class="footer-p">Lorem ipsum dolor adipisicing elit. Excepturi, repellendus et!</p>
+    </footer>
+    <!-- script are here  -->
+    <script src="js/fonction - laibery.js"></script>
+    <script src="js/product-section.js"></script>
+    <script src="js/X button.js"></script>
+</body>
+
+</html>
